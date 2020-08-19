@@ -47,6 +47,7 @@ Risks
 Conclusion 
 There are other ways of creating data pipeline that involves other methods and applications. ETL is fairly straight-forward and can handle average sized data successfully and conveniently. However, these  methods are outside the scope of this project. 
 This application can be tailored or modified for any data environment to fulfill the basic needs. The main advantage here is to eliminate repetitious process in maintaining data.
+
 Verification of tables being created and populated in PostgresDB. 
 
 Movies Table:
