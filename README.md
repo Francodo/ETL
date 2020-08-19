@@ -4,9 +4,9 @@ Francis Odo
 
 Background 
 
-Most business entities for various reasons maintain a type of database in their day-to-day operations, depending on the type, industry category, as well as other need factors. There is the necessity to proactively keeping up with the accumulation and maintenance brought about from business operations and other associated factors. One of the ways of achieving this task is the Extract Transform and Load (ETL) process. This project takes us through the process from beginning to the end.
+Most business entities, government institutions and agencies maintain some type of database in their day-to-day operations. Depending on business type, industry category, as well as other need factors, the nature of data collection varies widely. There is the necessity to proactively keep up with the accumulation and maintenance brought about by business operations and other associated factors. One of the ways of achieving this task is the Extract Transformation and Load (ETL) process. This project takes us through the process from beginning to the end.
 Objective
-The objective is to automate the process of Extract Transform and Load (ETL) in fulfilling the need of an ideal business entity wanting to maintain information database. The process takes in a set of files in raw data format, then:
+The objective is to automate the process of Extract Transformation and Load (ETL) in fulfilling the need of an ideal business entity wanting to maintain information database. The process takes in a set of files in raw data format, then:
 a)	Extract  -  Take in the information in the best available format(file) and condition
 b)	Transform  -  Perform various types of cleaning, rearrangement and updates
 c)	Load   -  Load the data into a functional database platform in a clean and easy to understand format. 
