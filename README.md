@@ -4,8 +4,12 @@ Francis Odo
 
 Background 
 
-Most business entities, government institutions and agencies maintain some type of database in their day-to-day operations. Depending on business type, industry category, as well as other need factors, the nature of data collection varies widely. There is the necessity to proactively keep up with the accumulation and maintenance brought about by business operations and other associated factors. One of the ways of achieving this task is the Extract Transform and Load (ETL) process. This project takes us through the process from beginning to the end.
+Most business entities, government institutions and agencies maintain some type of database in their day-to-day operations. Depending on business type, industry category, as well as other need factors, the nature of data collection varies widely.
+
+There is the necessity to proactively keep up with the accumulation and maintenance brought about by business operations and other associated factors. One of the ways of achieving this task is the Extract Transform and Load (ETL) process. This project takes us through the process from beginning to the end.
+
 Objective
+
 The objective is to automate the process of Extract Transform and Load (ETL) in fulfilling the need of an ideal business entity wanting to maintain information database. The process takes in a set of files in raw data format, then:
 a)	Extract  -  Take in the information in the best available format(file) and condition
 b)	Transform  -  Perform various types of cleaning, rearrangement and updates
@@ -14,19 +18,21 @@ c)	Load   -  Load the data into a functional database platform in a clean and ea
 Development Environment
 
 Code Development – Jupyter Notebook
-Programming Language – Python
+Programming Language – Python 3.0
 Libraries – Pandas
 Database – PostgresDB
 ORM - Sql Alchemy
 
-Code Plan
-(1)	Import all the necessary dependencies and set up file paths to raw datafile location 
-(2)	Define engine and database connection string
-(3)	Create a main function in Python using “def etl_pipe_func(file 1, file 2, file 3)”. 
 The three raw files are: 
 (a)	wikipedia.movies.json
 (b)	movies_metadata.csv
 (c)	ratings.csv
+
+Code Plan
+
+(1)	Import all the necessary dependencies and set up file paths to raw datafile location 
+(2)	Define engine and database connection string
+(3)	Create a main function in Python using “def etl_pipe_func(file 1, file 2, file 3)”. 
 (4)	Open and read the files with the appropriate and applicable Pandas method. Verify that data is being read correctly within the function created for automation purposes. 
 (5)	Perform transformation which includes cleaning, avoiding duplicates, merging columns, regular expression and other necessary steps.
 (6)	Create and configure “movies_data” database  in PostgreSQL. 
