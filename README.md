@@ -1,4 +1,4 @@
-# ETL-Extract Transform and Load- An automated process of data extraction, transformation and loading to AWS Bucket or PostgresSQL database
+# ETL-Extract Transform and Load- An automated process of data extraction, transformation and loading to AWS RDS-Bucket or PostgresSQL database
 
 Francis Odo
 
