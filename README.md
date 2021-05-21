@@ -1,4 +1,5 @@
-# ETL
+# ETL-Extract Transform and Load- An automated process of data extraction, transformation and loading to AWS Bucket or PostgresSQL database
+
 Francis Odo
 
 
@@ -11,6 +12,7 @@ There is the necessity to proactively keep up with the accumulation and maintena
 Objective
 
 The objective is to automate the process of Extract Transform and Load (ETL) in fulfilling the need of an ideal business entity wanting to maintain information database. The process takes in a set of files in raw data format, then:
+
 a)	Extract  -  Take in the information in the best available format(file) and condition
 b)	Transform  -  Perform various types of cleaning, rearrangement and updates
 c)	Load   -  Load the data into a functional database platform in a clean and easy to understand format. 
