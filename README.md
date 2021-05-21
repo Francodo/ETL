@@ -1,4 +1,4 @@
-# ETL-Extract Transform and Load-An automated process of data extraction, transformation and loading to AWS RDS-Bucket or PostgresSQL database in data pipe line
+# ETL-Extract Transform and Load-An automated process of data extraction, transformation and loading to AWS RDS-Bucket or PostgresSQL database in data pipeline
 
 Francis Odo
 
@@ -12,7 +12,7 @@ There is the necessity to proactively keep up with the accumulation and maintena
 Objective
 
 The objective is to automate the process of Extract Transform and Load (ETL) in fulfilling the need of an ideal business entity wanting to maintain information database. 
-Conceptually, imagine everything you find necessary to be done to a dataset periodically or repeatitive processes. How can we create a function in Python to make that happen automatically?
+Conceptually, imagine everything you find necessary to be done to a dataset periodically or repetitive processes. How can we create a function in Python to make that happen automatically?
 
 The process takes in a set of files in raw data format, then:
 
